@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.assertthat</groupId>
+  <artifactId>selenium-shutterbug</artifactId>
+  <version>0.6.1</version>
+  <name>Selenium Shutterbug</name>
+  <description>Utility library to create customized screenshots using Selenium</description>
+  <url>https://github.com/glib-briia/selenium-shutterbug</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/assertthat/selenium-shutterbug/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>glib-briia</id>
+      <name>Glib Briia</name>
+      <email>glib.briia@assertthat.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/assertthat/selenium-shutterbug.git</connection>
+    <developerConnection>scm:git:https://github.com/assertthat/selenium-shutterbug.git</developerConnection>
+    <url>https://github.com/assertthat/selenium-shutterbug/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>2.53.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
